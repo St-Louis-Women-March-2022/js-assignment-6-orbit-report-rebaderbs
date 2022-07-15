@@ -7,7 +7,7 @@
         <th>Launch Date</th>
     </tr>
     <tr
-    *ngFor = "let satellite of satellites"
+    *ngFor = "let satellite of satellites; let i = index " [class.stripe] = "i % 2 === 0"
     >
       <td>{{satellite.name}}</td>
       <td [class.warning] = "satellite.isSpaceDebris()">{{satellite.type}}</td>

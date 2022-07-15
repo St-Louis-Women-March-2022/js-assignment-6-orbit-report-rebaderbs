@@ -7,13 +7,18 @@
 	background-color: #da8a8a;
 }
 
+.stripe {
+  background-color: darkgreen;
+  color: whitesmoke;
+}
+
 table {
  color: #111;
  border-radius: 5px;
  overflow: hidden;
  margin: 12px 0;
  min-width: 300px;
- background: #dad8d8;
+ background: lightgrey;
 }
 
 .header-row {
